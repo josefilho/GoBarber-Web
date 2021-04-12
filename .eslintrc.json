@@ -24,6 +24,9 @@
     "prettier"
   ],
   "rules": {
+    "import/prefer-default-export": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/prop-types": "off",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "react/jsx-filename-extension": [
@@ -46,6 +49,7 @@
     "@typescript-eslint/no-use-before-define": [
       "error"
     ],
+    "@typescript-eslint/ban-types": "off",
     "react/react-in-jsx-scope": "off",
     "prettier/prettier": "error"
   },
